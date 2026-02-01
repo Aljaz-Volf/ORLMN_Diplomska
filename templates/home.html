@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <title>LMN Radgona</title>
+    <link rel="stylesheet" href="..\static\style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <h1>LMN Radgona</h1>
+    <nav>
+        <a href="#">Rezultati</a>
+        <a href="#">Lestvica</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Dobrodošli na LMN Radgona</h2>
+    <p>Platforma za spremljanje rezultatov in lestvic malega nogometa.</p>
+</section>
+
+<section class="stats">
+    <div class="stat-card">
+        <h3>{{ stats.leagues }}</h3>
+        <p>Aktivni ligi</p>
+    </div>
+    <div class="stat-card">
+        <h3>{{ stats.teams }}+</h3>
+        <p>Registriranih ekip</p>
+    </div>
+    <div class="stat-card">
+        <h3>{{ stats.matches }}+</h3>
+        <p>Odigranih tekem</p>
+    </div>
+</section>
+
+<section class="leagues">
+    <div class="league-card">
+        <h3>LIGA A</h3>
+        <p>Rezultati in lestvica</p>
+        <a href="#">Poglej</a>
+    </div>
+    <div class="league-card">
+        <h3>LIGA B</h3>
+        <p>Rezultati in lestvica</p>
+        <a href="#">Poglej</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 LMN Radgona</p>
+</footer>
+
+</body>
+</html>
